@@ -19,7 +19,10 @@ My name is Andreas. I am a test architect and Python developer from Germany.
 
 ## Stats
 
-[![DudeNr33's GitHub stats](https://github-readme-stats.vercel.app/api?username=DudeNr33)](https://github.com/anuraghazra/github-readme-stats)
+[![DudeNr33's GitHub stats](https://github-readme-stats.vercel.app/api?username=DudeNr33&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DudeNr33)](https://github.com/anuraghazra/github-readme-stats)
+
 
 ## Languages and Tools
 <!--
