@@ -1,0 +1,73 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.77]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Andreas Martin}{Finkler}
+\address{Ostendstr. 42}{90402 Nuremberg}{Germany}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+49 171 5113074}                   % optional, , remove / comment the line if not wanted
+\email{andi.finkler@gmail.com}                               %  remove / comment the line if not wanted
+
+\begin{document}
+\makecvtitle
+\section{Education}
+\cventry{2014--2015}{Master of Science (honours)}{FAU Erlangen-Nuremberg}{Erlangen}{\textit{Physics}}{
+    Final Grade: \textbf{1.26}
+}
+\cventry{2011--2014}{Bachelor of Science}{FAU Erlangen-Nuremberg}{Erlangen}{\textit{Physics}}{
+    Final Grade: \textbf{1.42}
+}
+\cventry{2001--2010}{Abitur}{Emmy-Noether-Gymnasium}{Erlangen}{}{
+    Final Grade: \textbf{1.1}
+}
+
+\section{Experience}
+\cventry{2015--2021}{System Tester}{Siemens Mobility GmbH}{Erlangen}{}{
+    Test design and automation with Python and Behave for Sibas PN and Unified Display System
+}
+\cventry{2014--2015}{Working Student}{Siemens Mobility GmbH}{Erlangen}{}{
+    Maintenance and enhancements of test infrastructure
+}
+
+\section{Certificates and Trainings}
+\cventry{2021}{Siemens Test Architect (TeA)}{}{}{}{}
+\cventry{2018}{ISTQB Certified Tester Advanced Level - Test Analyst}{}{}{}{}
+\cventry{2017}{ISTQB Certified Tester Advanced Level - Technical Test Analyst}{}{}{}{}
+\cventry{2016}{PSS Foundational Training}{}{}{}{}
+\cventry{2016}{ISTQB Certified Tester Foundation Level}{}{}{}{}
+
+
+\section{Languages}
+\cvitemwithcomment{German}{Native}{}
+\cvitemwithcomment{English}{Advanced}{}
+
+\section{Knowledge Area}
+\cvitem{Languages}{Python (Experienced), JavaScript (Basics)}
+\cvitem{Frameworks}{Behave, Flask, CherryPy}
+\cvitem{Database}{SQLite}
+\cvitem{CI}{Jenkins, Github Actions, Travis CI}
+\cvitem{SCM/CRM}{SVN, Redmine, Git, Github, ClearCase, ClearQuest}
+\cvitem{Other}{Vagrant, VirtualBox, Docker, SiESTA, imbus TestBench}
+
+\clearpage
+\end{document}
